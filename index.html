@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Busca CEP</title>
+</head>
+<body>
+    <main class="container">
+
+        <div class="caminhao">
+        </div>
+
+        <div class="inputs">
+            <div class="group">
+
+                <label for="cep" id="form">CEP</label>
+                    <div class="input-content">
+                            <img class="icon" src="assets/icon-search.jpg" alt="pesquisa">
+                    <input  name="cep" type="number" id="cep">
+                </div>
+
+                <label for="rua">Rua</label>
+                    <div class="input-content">
+                            <img class="icon" src="assets/icon-street.png" alt="pesquisa">
+                    <input name="rua" type="text" id="rua">
+                </div>
+     
+                <label for="complemento">Complemento</label>
+                <div class="input-content">
+                        <img class="icon" src="assets/icon-plus.png" alt="pesquisa">
+                <input type="text" id="complemento" name="complemento">
+            </div>
+
+            <label for="bairro">Bairro</label>
+                <div class="input-content">
+                        <img class="icon" src="assets/icon-house.jpg" alt="pesquisa">
+                <input name="bairro" type="text" id="bairro">
+            </div>
+
+            <label for="uf">UF</label>
+            <div class="input-content">
+                    <img class="icon" src="assets/icon-uf.png" alt="pesquisa">
+            <input  name="uf"  type="text" id="uf">
+        </div>
+
+        </div>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/cep.js"></script>
+</body>
+</html>
